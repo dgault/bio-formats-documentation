@@ -136,6 +136,7 @@ extlinks = {
     'bfwriter' : (gpl_formats + 'out/' + '%s', ''),
     'bsd-writer' : (bsd_formats + 'out/' + '%s', ''),
     'bf-cpp-lib': (bf_cpp + 'lib/' + '%s', ''),
+    'doc_source' : ('https://github.com/ome/bio-formats-documentation/blob/master' + '/%s', ''),
     # Mailing list/forum links
     'mailinglist' : (lists_root + '/mailman/listinfo/%s', ''),
     'forum' : (oo_root + '/community/%s', ''),
@@ -379,5 +380,6 @@ linkcheck_ignore = ['https://imspector.mpibpc.mpg.de',
     'http://www.lavisionbiotec.com/',
     r'.*[.]sourceforge.net',
     r'http://www.libpng.org/.*',
-    'https://nifti.nimh.nih.gov/nifti-1/'
+    'https://nifti.nimh.nih.gov/nifti-1/',
+    r'https://cbia.fi.muni.cz.*'
 ]
