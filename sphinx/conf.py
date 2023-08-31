@@ -386,5 +386,6 @@ linkcheck_ignore = ['https://imspector.mpibpc.mpg.de',
     r'http://www.slf4j.org/.*',
     r'https://valelab.ucsf.edu/.*',
     r'https://www.adobe.com*',
+    r'http://www.xuvtools.org*', # Invalid SSL certificate
 
 ]
